@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object SparkWfTaskApp {
   def main(args: Array[String]): Unit = {
-    println(args)
+    println(args)someerrorme
     val params = getParamMap(args)
 
     println(params)
